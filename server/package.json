@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon connection.js",
+    "start": "node connection.js"
+  },
+  "keywords": [],
+  "author": "Reginald Bartiana",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "concurrently": "^7.6.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^6.0.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.9.0",
+    "pino": "^8.10.0",
+    "pino-pretty": "^9.2.0",
+    "react-redux": "^8.0.5",
+    "sequelize": "^6.28.0",
+    "socket.io": "^4.6.0"
+  }
+}

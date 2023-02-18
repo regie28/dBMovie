@@ -1,0 +1,23 @@
+{
+  "name": "dbmovie",
+  "version": "1.0.0",
+  "description": "This small full-stack project is to provide  my needs as I'am a movie watcher which always want to track what movies are in cinema.\r This Project is created Using P.E.R.N tack",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run start --prefix client\"",
+		"backend": "nodemon connection.js,",
+		"frontend": "npm run start --prefix client",
+		"dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regie28/dBMovie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/regie28/dBMovie/issues"
+  },
+  "homepage": "https://github.com/regie28/dBMovie#readme"
+}
